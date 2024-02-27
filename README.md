@@ -1,79 +1,70 @@
-# rx-eccomerce
+# Getting Started with Create React App
 
-E-commerce site for shoes with React-js
-	Hii everyone my name is Rupesh and this React e-commerce site for shoes ,in this user can buy the shoes and view the shoes and he can get discount with the help of discount code while making purchase. After order get placed he will receive a mail from this site ,including message like Your Transaction Is Successful.
- 
-Built with:
-•	React-JS
-•	Npm
-•	Redux
-•	Bootstrap
-•	API
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Screen Shots:
-SignUp Page:
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/c4e224e8-a91c-4d60-ac78-39f55b40cb43)
+## Available Scripts
 
-SignIn Page
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/d7ecfef3-443f-41f7-be84-e5909c5223a6)
+In the project directory, you can run:
 
-Home Page
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/91531ce6-da50-4e33-b789-5e336ab95fcb)
+### `npm start`
 
-Product page
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/4aadc28b-38b4-4e94-b75d-87c71d17973f)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Cart page
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/d7f4fe2f-1306-44b1-82bc-d44c7e1991f9)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Cart Page
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/2bd9c91f-f880-4668-9bce-3e55710d85fa)
+### `npm test`
 
-WishList Page
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/5faff4de-8b45-42fa-a0e0-5581672fb5b1)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Billing Page 
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/e40a92b2-49cc-4f57-aad1-9d01f3584b3a)
+### `npm run build`
 
-Profile Page
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/05b08727-7077-477a-8bbe-7ec68378ddb1)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-ContactUS Page
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/0a9ffc05-8f09-41b7-b2f5-8b0fb2841ab8)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Dynamic Conformation Mail
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/d24191b1-f22c-4f18-8131-c6aff2889c55)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Customer Testimonials 
-![image](https://github.com/viperven/rx-eccomerce/assets/127649834/6123bad3-46c7-47d9-a1ba-acdfe6cea472)
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Requirements:
-•	React –js
-•	Npm server
-•	Redux
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Documentation:
-Quick Start
-On your local machine
-If you have installed above requirements,
-1.	Download the source code .
-2.	Extract code, update config at config folder as you need and run and choose any plateform to edit or modify the code (text editors).
-3.	To start the project enter the npm start command in command prompt or terminal, make sure that you are in correct path.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-Description of the project:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Let’s see how the things are working
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1.	Basic implementation: User need to login or register to my site before using home page and other activities with respect to purchasing. For  that I used fire base, and protected routing with the help of this Authentication and Authorization is done. I used toastify package of react for displaying messages instead of alert. I made the components with help of bootstarp.
+### Code Splitting
 
-  
-2.	In product section i made different filter options based on Category, Price and Color, and also he can search the product in search bar with name, category, price etc. After selecting a product he can buy that or put that to cart also for shopping other products as well.
-  
-3.	In cart section he can buy multiple products also ,the price will vary with respect to quantity. After clicking checkout button he will redirect to payment page (……………………………………) after order get placed that time he will get the mail from this site .
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-   
-Future enhancement:
-	This time it is the web based application , in future i would like convert into android application. And Admin panel  for product insertion and manipulation and payment gateway  I waould like to integrate in this application.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
